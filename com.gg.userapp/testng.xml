@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+        <listener class-name="GGModules.RetryListenerClass"/>
+  </listeners>
+
+  <test  name="doRecharge">
+  <classes>
+      <class name="GGModules.doRecharge"/>
+   </classes>
+   
+  </test> <!-- Test -->
+   <test  name="busBooking">
+  <classes>
+      <class name="GGModules.busBooking"/>    
+    </classes>
+  
+  </test> <!-- Test -->
+  
+  <test  name="Flight">
+  <classes>
+      <class name="GGModules.Flight"/>  
+   </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
