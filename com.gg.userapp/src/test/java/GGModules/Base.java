@@ -38,7 +38,7 @@ public class Base extends CommanFunctions {
 	  options.setExperimentalOption("prefs", prefs);
 	  driver = new ChromeDriver(options);
 	   	
-	    File file = new File("E:\\IrfanSelenium\\com.gg.userapp\\Configs\\Configuration.properties");
+	    File file = new File(System.getProperty("user.dir")+"\\Configs\\Configuration.properties");
 	 	  
 		 FileInputStream fileInput = null;
 			try {
